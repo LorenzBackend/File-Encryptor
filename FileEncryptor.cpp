@@ -110,14 +110,14 @@ void RunProgram() {
     }
 }
 
+
 int main()
 {
     while (true) {
-        cout << "\x1B[2J\x1B[H";
+        system("cls");
         RunProgram(); 
        _getch();
     }
-
 
     return 0;
 }
