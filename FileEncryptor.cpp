@@ -4,7 +4,6 @@
 
 using namespace std;
 
-
 bool IsFileExist(const string& name) {
     ifstream ifile;
     ifile.open(name);
