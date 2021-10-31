@@ -1,2 +1,2 @@
 # File-Encryptor
-Encrypt and Decrypt your fiels
+A Simple File Encryptor To Encrypt and Decrypt Fiels
