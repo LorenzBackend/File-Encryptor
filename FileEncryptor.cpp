@@ -60,12 +60,14 @@ void RunProgram() {
     cout << "[1] Encrypt a File" << endl;
     cout << "[2] Decrypt a File" << endl;
     cin >> answer;
+    
     if (answer != 1 && answer != 2) {
         cout << "Invaild Answer" << endl;
         cin.clear();
         cin.ignore(40, '\n');
         return;
     }
+    
     int key;
     string InputFile;
 
@@ -85,6 +87,7 @@ void RunProgram() {
         cin.ignore(40, '\n');
         return;
     }
+    
     cout << "Any Output File Name: " << endl;
     cin >> name;
 
