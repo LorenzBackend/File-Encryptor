@@ -1,2 +1,2 @@
 # File-Encryptor
-A Simple File Encryptor To Encrypt and Decrypt Fiels
+it is a very simple encryption, so be aware that the encryption is not really secure
